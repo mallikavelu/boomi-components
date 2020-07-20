@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="boomi_mvelusc/sandbox/Test" componentId="54144507-6435-45db-89eb-78ad8aee2460" version="1" name="Test AtomQ" type="process" createdDate="2020-04-27T22:09:49Z" createdBy="Mallika_Velu@Dell.com" modifiedDate="2020-04-27T22:09:49Z" modifiedBy="Mallika_Velu@Dell.com" deleted="false" currentVersion="true" folderName="Test" folderId="RjoyOTI1Mjc4">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="false" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="true" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="" x="128.0" y="224.0">
+          <configuration>
+            <noaction/>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape2" x="320.0" y="233.0">
+              <linesegment length="0" name="shape1.dragpoint1.lineseg1" orient="horizontal" x="162.0" y="239.0"/>
+              <linesegment length="0" name="shape1.dragpoint1.lineseg2" orient="vertical" x="162.0" y="239.0"/>
+              <linesegment length="87" name="shape1.dragpoint1.lineseg3" orient="horizontal" x="162.0" y="239.0"/>
+              <linesegment length="0" name="shape1.dragpoint1.lineseg4" orient="vertical" x="249.0" y="239.0"/>
+              <linesegment length="71" name="shape1.dragpoint1.lineseg5" orient="horizontal" x="249.0" y="239.0"/>
+            </dragpoint>
+          </dragpoints>
+        </shape>
+        <shape image="message_icon" name="shape2" shapetype="message" userlabel="" x="336.0" y="224.0">
+          <configuration>
+            <message combined="false">
+              <msgTxt>OK</msgTxt>
+              <msgParameters/>
+            </message>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape2.dragpoint1" toShape="shape3" x="496.0" y="233.0">
+              <linesegment length="0" name="shape2.dragpoint1.lineseg1" orient="horizontal" x="370.0" y="239.0"/>
+              <linesegment length="0" name="shape2.dragpoint1.lineseg2" orient="vertical" x="370.0" y="239.0"/>
+              <linesegment length="71" name="shape2.dragpoint1.lineseg3" orient="horizontal" x="370.0" y="239.0"/>
+              <linesegment length="0" name="shape2.dragpoint1.lineseg4" orient="vertical" x="441.0" y="239.0"/>
+              <linesegment length="55" name="shape2.dragpoint1.lineseg5" orient="horizontal" x="441.0" y="239.0"/>
+            </dragpoint>
+          </dragpoints>
+        </shape>
+        <shape image="connectoraction_icon" name="shape3" shapetype="connectoraction" userlabel="" x="512.0" y="224.0">
+          <configuration>
+            <connectoraction actionType="Send" allowDynamicCredentials="NONE" connectionId="4ace03d7-6d1d-42c6-b271-284f51962984" connectorType="queue" hideSettings="false" operationId="f092bdaf-eafa-4ea5-bf82-1bd2e7cdc41b">
+              <parameters/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape3.dragpoint1" toShape="shape4" x="672.0" y="233.0">
+              <linesegment length="0" name="shape3.dragpoint1.lineseg1" orient="horizontal" x="546.0" y="239.0"/>
+              <linesegment length="0" name="shape3.dragpoint1.lineseg2" orient="vertical" x="546.0" y="239.0"/>
+              <linesegment length="71" name="shape3.dragpoint1.lineseg3" orient="horizontal" x="546.0" y="239.0"/>
+              <linesegment length="0" name="shape3.dragpoint1.lineseg4" orient="vertical" x="617.0" y="239.0"/>
+              <linesegment length="55" name="shape3.dragpoint1.lineseg5" orient="horizontal" x="617.0" y="239.0"/>
+            </dragpoint>
+          </dragpoints>
+        </shape>
+        <shape image="stop_icon" name="shape4" shapetype="stop" userlabel="" x="688.0" y="224.0">
+          <configuration>
+            <stop continue="true"/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides/>
+</bns:Component>

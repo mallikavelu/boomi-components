@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="boomi_mvelusc/sandbox/Test" componentId="f092bdaf-eafa-4ea5-bf82-1bd2e7cdc41b" version="1" name="Test AtomQ Operation" type="connector-action" subType="queue" createdDate="2020-04-27T22:09:30Z" createdBy="Mallika_Velu@Dell.com" modifiedDate="2020-04-27T22:09:30Z" modifiedBy="Mallika_Velu@Dell.com" deleted="false" currentVersion="true" folderName="Test" folderId="RjoyOTI1Mjc4">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Operation xmlns="">
+      <Archiving directory="" enabled="false"/>
+      <Configuration>
+        <QueueSendAction batchSize="5"/>
+      </Configuration>
+      <Tracking>
+        <TrackedFields/>
+      </Tracking>
+      <Caching/>
+    </Operation>
+  </bns:object>
+</bns:Component>

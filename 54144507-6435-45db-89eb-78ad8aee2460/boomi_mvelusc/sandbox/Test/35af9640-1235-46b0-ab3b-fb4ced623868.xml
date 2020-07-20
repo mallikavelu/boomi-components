@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="boomi_mvelusc/sandbox/Test" componentId="35af9640-1235-46b0-ab3b-fb4ced623868" version="2" name="Test Queue" type="queue" createdDate="2020-04-27T22:09:00Z" createdBy="Mallika_Velu@Dell.com" modifiedDate="2020-04-27T22:09:14Z" modifiedBy="Mallika_Velu@Dell.com" deleted="false" currentVersion="true" folderName="Test" folderId="RjoyOTI1Mjc4">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <QueueModel xmlns="">
+      <Name>Test Publisher Queue</Name>
+      <Type>topic</Type>
+    </QueueModel>
+  </bns:object>
+</bns:Component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="boomi_mvelusc/sandbox/Test" componentId="4ace03d7-6d1d-42c6-b271-284f51962984" version="1" name="Test AtomQ Connection" type="connector-settings" subType="queue" createdDate="2020-04-27T22:09:18Z" createdBy="Mallika_Velu@Dell.com" modifiedDate="2020-04-27T22:09:18Z" modifiedBy="Mallika_Velu@Dell.com" deleted="false" currentVersion="true" folderName="Test" folderId="RjoyOTI1Mjc4">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <QueueSettings xmlns="">
+      <queueComponentId>35af9640-1235-46b0-ab3b-fb4ced623868</queueComponentId>
+    </QueueSettings>
+  </bns:object>
+</bns:Component>
